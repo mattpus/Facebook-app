@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "facebookapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2022-11-03T21:05:18.145Z"
+}

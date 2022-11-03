@@ -55,7 +55,7 @@ export default function FeedPost({ post }) {
       {/* Post body with description and image */}
       <Text style={styles.description}>{post.description}</Text>
       {post.image && (
-        <S3Image imgKey={post.image} style={styles.image} resizeMode="cover" />
+        <S3Image imgKey={post.image} style={styles.image} resizeMode="contain" />
       )}
 
       {/* Post footer with likes and button */}

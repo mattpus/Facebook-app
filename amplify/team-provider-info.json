@@ -1,19 +1,26 @@
 {
   "staging": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-fbtest-staging-130021-authRole",
-      "UnauthRoleArn": "arn:aws:iam::704219588443:role/amplify-fbtest-staging-130021-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::704219588443:role/amplify-fbtest-staging-130021-authRole",
-      "Region": "eu-west-1",
-      "DeploymentBucketName": "amplify-fbtest-staging-130021-deployment",
-      "UnauthRoleName": "amplify-fbtest-staging-130021-unauthRole",
-      "StackName": "amplify-fbtest-staging-130021",
-      "StackId": "arn:aws:cloudformation:eu-west-1:704219588443:stack/amplify-fbtest-staging-130021/09a02fe0-29f6-11ed-b13a-02c561d17495",
-      "AmplifyAppId": "d1beyns2fn5qnx"
+      "AuthRoleName": "amplify-facebookapp-staging-203323-authRole",
+      "UnauthRoleArn": "arn:aws:iam::743328087393:role/amplify-facebookapp-staging-203323-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::743328087393:role/amplify-facebookapp-staging-203323-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-facebookapp-staging-203323-deployment",
+      "UnauthRoleName": "amplify-facebookapp-staging-203323-unauthRole",
+      "StackName": "amplify-facebookapp-staging-203323",
+      "StackId": "arn:aws:cloudformation:eu-central-1:743328087393:stack/amplify-facebookapp-staging-203323/c32bb370-5bb6-11ed-a58f-0aefc95e9df0",
+      "AmplifyAppId": "d2s8k6lbwx91tl"
     },
     "categories": {
       "auth": {
-        "FBTest": {}
+        "FBTest": {},
+        "facebookapp0631b110": {}
+      },
+      "api": {
+        "facebookapp": {}
+      },
+      "storage": {
+        "facebookMedia": {}
       }
     }
   }

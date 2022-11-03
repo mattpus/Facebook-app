@@ -1,0 +1,14 @@
+{
+  "resourceName": "facebookMedia",
+  "policyUUID": "c05fd7fe",
+  "bucketName": "facebookapp093af1abf74f473f9cf8a8d83deb0651",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
